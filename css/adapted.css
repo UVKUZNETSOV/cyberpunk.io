@@ -1,0 +1,120 @@
+@media screen and (min-width: 1600px) {
+  .description__photo {
+    height: 400px; }
+
+  .promotion {
+    padding: 100px 0; }
+    .promotion__participation {
+      justify-content: left; }
+    .promotion__consoles {
+      width: 600px; }
+
+  .buy__img {
+    height: 600px; } }
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 36px; }
+
+  .main__available {
+    margin-right: 36px; }
+
+  .description__photos {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 3fr;
+    grid-gap: 32px; }
+  .description__photo {
+    clip-path: polygon(9% 0, 100% 0, 100% 85%, 91% 100%, 0 100%, 0 15%);
+    height: 200px; }
+    .description__photo:nth-child(1) {
+      grid-area: 1 / 1 / 2 / 2; }
+    .description__photo:nth-child(2) {
+      grid-area: 2 / 1 / 3 / 3; }
+    .description__photo:nth-child(3) {
+      grid-area: 1 / 2 / 2 / 3; }
+
+  .hp__img-btm {
+    flex-direction: column; }
+
+  .footer__main {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px 0; } }
+@media screen and (max-width: 768px) {
+  button {
+    pointer-events: none; }
+
+  .container {
+    padding: 0 12px; }
+
+  .main__header {
+    flex-direction: column;
+    align-items: center; }
+    .main__header ul {
+      padding-top: 20px;
+      gap: 0 20px; }
+  .main__available {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    height: 207px;
+    width: 100%;
+    margin: 0; }
+    .main__available h1 {
+      font-size: 35px; }
+
+  .hp__content {
+    flex-direction: column; }
+  .hp__img {
+    width: 100%;
+    gap: 30px 0; }
+    .hp__img-btm {
+      gap: 30px 0; }
+  .hp__text {
+    margin-top: 30px; }
+
+  .buy__img {
+    width: 30%; }
+
+  .footer__main-item {
+    flex-direction: column;
+    gap: 32px 0; } }
+@media screen and (max-width: 500px) {
+  .description__photos {
+    display: flex;
+    flex-direction: column; }
+  .description__photo {
+    clip-path: polygon(9% 0, 100% 0, 100% 85%, 91% 100%, 0 100%, 0 15%);
+    width: 100%;
+    height: 200px; }
+    .description__photo:nth-child(2) {
+      height: 200px; }
+
+  .promotion form {
+    width: 100%; }
+  .promotion__title {
+    flex-direction: column; }
+    .promotion__title h2 {
+      font-size: 45px;
+      margin: 20px 0 0 0;
+      padding: 0; }
+    .promotion__title img {
+      width: 40%; }
+  .promotion__participation {
+    flex-direction: column; }
+  .promotion__consoles {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px; }
+    .promotion__consoles img {
+      position: static;
+      width: 50%; }
+
+  .buy {
+    flex-direction: column; }
+    .buy__img {
+      width: 100%; }
+    .buy__content {
+      padding: 32px; }
+    .buy__platform {
+      width: 100%; } }
